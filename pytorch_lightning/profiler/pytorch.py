@@ -19,7 +19,6 @@ from typing import Any, Callable, List, Optional
 
 import torch
 
-from pytorch_lightning import _logger as log
 from pytorch_lightning.profiler.profilers import BaseProfiler
 from pytorch_lightning.utilities import _TORCH_GREATER_EQUAL_1_8, rank_zero_only
 from pytorch_lightning.utilities.cloud_io import get_filesystem
