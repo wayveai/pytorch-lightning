@@ -17,7 +17,6 @@ from unittest.mock import DEFAULT, patch
 
 import torch
 from torch.optim import Adam, Optimizer, SGD
-from torch.optim.optimizer import _RequiredParameter
 
 from pytorch_lightning import Trainer
 from pytorch_lightning.core.optimizer import LightningOptimizer
