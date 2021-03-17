@@ -18,7 +18,7 @@ _TORCHVISION_AVAILABLE = _module_available("torchvision")
 _TORCHVISION_MNIST_AVAILABLE = _TORCHVISION_AVAILABLE
 _DALI_AVAILABLE = _module_available("nvidia.dali")
 
-if _TORCHVISION_MNIST_AVAILABLE:
+if _TORCHVISION_AVAILABLE:
     try:
         from torchvision.datasets.mnist import MNIST
         MNIST(_DATASETS_PATH, download=True)
