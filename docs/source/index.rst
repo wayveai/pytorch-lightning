@@ -137,6 +137,8 @@ PyTorch Lightning Documentation
    governance.md
    generated/CHANGELOG.md
 
+.. insert:: google4a2dd6c7153f0b9a.html
+
 Indices and tables
 ------------------
 
